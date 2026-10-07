@@ -223,7 +223,7 @@ I used Keras' `model.evaluate()` method to obtain the final evaluation metrics.
 For example:
 
 ```python
-loss, accuracy = model.evaluate(X_test, y_test)
+loss, accuracy = model.evaluate(X_trained_scaled, y_train)
 
 print("Test Loss:", loss)
 print("Test Accuracy:", accuracy)
